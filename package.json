@@ -1,0 +1,30 @@
+{
+  "name": "testing-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianpm/testing-fastify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianpm/testing-fastify/issues"
+  },
+  "homepage": "https://github.com/damianpm/testing-fastify#readme",
+  "dependencies": {
+    "fastify": "^3.27.1",
+    "fastify-swagger": "^4.15.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
